@@ -1,0 +1,156 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/013/279/961/original/seamless-pattern-of-retro-old-hipster-computers-from-the-70s-80s-90s-2000s-on-a-blue-background-vector.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.marquee-container{
+    display: flex;
+    align-items: center;
+    background: #25284c;
+    overflow: hidden;
+}
+.marquee{
+    font-size: 75px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    padding: 24px 0px;
+    text-shadow: 2px 2px red;
+    color: green;
+    white-space: nowrap;
+    animation: marquee 3.5s infinite linear; /* notice the infinite */
+}
+.marquee:after{
+    content: "Carolina Code School";
+}
+
+@keyframes marquee{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+}
+
+
+nav {
+  display: flex;
+  justify-content: right;
+  background-color: brown;
+  overflow: hidden;
+}
+
+
+h2 {
+  background-color: yellow;
+  margin: 10px;
+  padding: 10px;
+}
+
+#container {
+    background-color: orange;
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 5%;
+    padding: 5%;
+    
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.learn-more {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: fantasy;
+  display: inline-block;
+  font-size: 16px;
+  text-shadow: red;
+}
+
+.career {
+    background-color:lemonchiffon;
+}
+
+.about {
+    background-color: darksalmon;
+    display: inline-block;
+    max-width: 25%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.about-header {
+    background-color: blueviolet;
+}
+
+.our-mission {
+    background-color: chartreuse;
+}
+
+.our-instructors {
+    background-color: cornflowerblue;
+}
+
+.our-curriculum {
+    background-color: darkmagenta;
+}
+
+img {
+    display: inline-block;
+    float: right;
+    max-width: 50%;
+}
+
+#immersive-course {
+    display: inline-block;
+    text-align: center;
+    background-color:mediumpurple;
+    max-width: 85%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.immersive-heading {
+    background-color: red;
+}
+
+.immersive-paragraph {
+    background-color:violet;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+#list {
+    background-color:aqua;
+    margin-top: 5%;
+}
+
+.course-info {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: fantasy;
+  display: inline-block;
+  font-size: 16px;
+  text-shadow: red;
+    
+    
+}
